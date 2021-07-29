@@ -1,0 +1,467 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: local("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: local("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Merriweather', serif;
+    src: local("../fonts/Merriweather-Light.ttf");
+}
+
+@font-face {
+    font-family: 'ProximaNovaCond-Bold';
+    src: url('../fonts/ProximaNovaCond-Bold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.centerContent {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 33px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: #0f5f5c;
+    font-weight: 400;
+}
+
+
+/*********************************DROPDOUN***************************************/
+.dropdown {
+    display: none;
+}
+
+.dropdown img {
+    display: block;
+    width: 35px;
+    height: 25px;
+    opacity: 0.9;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #296365;
+    border-radius: 5px;
+    min-width: 200px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown-content nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*******************************************************************************/
+#header {
+    background-image: url("../img/headBackgroundAboutUs.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.boxLogo {
+    display: flex;
+    align-items: center;
+}
+
+.boxLogo a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 7px;
+}
+
+.lineImg {
+    margin: 0 26px 0 25px;
+}
+
+nav {
+    display: flex;
+}
+
+nav div {
+    padding: 12px 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #b3bfc0;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0 8px;
+}
+
+nav div:hover {
+    background-color: #789d9d;
+    border-radius: 2px;
+    color: white;
+}
+
+nav div:hover a {
+    color: white;
+}
+
+.lineHr {
+    height: 1px;
+    max-width: 1200px;
+    background-image: url("../img/lineHr.png");
+}
+
+.headerText {
+    padding: 159px 0 164px;
+    text-align: center;
+}
+
+.headerText a {
+    display: block;
+    background-color: #6fb048;
+    padding: 20px 27px;
+    border-radius: 3px;
+    width: 230px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.headerText a:hover {
+    background-color: green;
+}
+
+#aboutUs {
+    background-color: #ffffff;
+}
+
+.h2Content {
+    margin: 81px auto 98px;
+    text-align: center;
+}
+
+.greenLine {
+    background-image: url("../img/greenLine.png");
+    height: 1px;
+    width: 65px;
+    margin: 21px auto;
+}
+
+.h2Content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #83a7a5;
+    line-height: 20px;
+}
+
+.alignCards {
+    display: block;
+    text-align: center;
+    width: 327px;
+}
+
+.groupCards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 109px;
+}
+
+.alineImg {
+    margin: auto;
+    display: block;
+    height: 56px;
+}
+
+.groupCards span {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #0f5f5c;
+    font-weight: bold;
+    padding: 30px 0 25px;
+}
+
+.groupCards p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #83a7a5;
+}
+
+#download {
+    background-image: url("../img/forDownloadGreen.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fontDownload {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.textDownload {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.flexDownload a {
+    display: block;
+    padding: 16px 0;
+    width: 285px;
+    text-align: center;
+    color: #ffffff;
+    background-color: darkgreen;
+    text-decoration: none;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.flexDownload a:hover {
+    background-color: #0f5f5c;
+}
+
+.flexDownload {
+    display: flex;
+    justify-content: space-between;
+    padding: 74px 0 79px;
+}
+
+.topFooter {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topFooter > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.wapikList p {
+    font-family: 'ProximaNovaCond-Bold';
+    font-size: 22px;
+    color: #0f5f5c;
+}
+
+.topFooter a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #83a7a5;
+    padding-top: 12px;
+}
+
+.topFooter a:hover {
+    color: #0f5f5c;
+}
+
+.companyList p, .othersList p, .newsLetter p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #0f5f5c;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.newsLetter span p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #83a7a5;
+    margin-top: 12px;
+}
+
+.newsLetter input {
+    width: 241px;
+    height: 36px;
+    background-color: #eef1ec;
+    padding: 0 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 2px;
+    background-image: url("../img/plane.png");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    outline: none;
+}
+
+.newsLetter input:focus {
+    background-image: none;
+}
+
+.newsLetter ::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    color: #83a7a5;
+}
+
+.buttonFooter {
+    border-top: solid 1px #eef1ec;
+    margin-top: 60px;
+}
+
+.reserved {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #83a7a5;
+}
+
+.buttonFooter {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon img {
+    margin-left: 5px;
+}
+
+
+#ourTeam {
+    background-color: #eef1ec;
+}
+
+.photoCards {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 121px;
+}
+
+.photoCards p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #0f5f5c;
+    margin-top: 7px;
+}
+
+.photoCards span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #83a7a5;
+}
+
+/***************************@MEDIA*******************************/
+@media (max-width: 920px) {
+    .photoCards {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 850px) {
+    .flexDownload {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .flexDownload p, a {
+        margin: 15px 0;
+    }
+
+}
+
+@media (max-width: 830px) {
+    .boxNavigation nav {
+        display: none;
+    }
+
+    .groupCards {
+        display: block;
+    }
+
+    .groupCards div {
+        padding: 15px 15px;
+        margin: auto;
+    }
+
+    .headerText {
+        text-align: center;
+        padding: 60px 0;
+    }
+
+    .h2Content {
+        margin: 60px 0 50px;
+    }
+
+    .groupCards span {
+        padding: 15px 0 15px;
+    }
+
+    .header {
+        justify-content: space-around;
+        flex-direction: row-reverse;
+    }
+
+    .headerText div {
+        margin: auto;
+    }
+
+    .headerText a {
+        margin: 0 auto;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    .topFooter {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .headerText {
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .buttonFooter {
+        flex-direction: column-reverse;
+    }
+
+    .icon {
+        padding: 10px 0;
+    }
+}

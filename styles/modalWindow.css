@@ -1,0 +1,121 @@
+.closeAll {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.modalWindow {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.transition {
+    transition: 0.9s;
+}
+
+.modalWindow:target {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.9s;
+}
+
+.modalWindow:target .windowContent {
+    transition: 0.9s;
+    opacity: 1;
+    transform: perspective(700px) translate(0, 0) rotateX(0) rotateY(0);
+}
+
+
+.windowBody {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+.windowContent {
+    max-width: 800px;
+    background-color: #0f5f5c;
+    color: white;
+    padding: 50px 30px;
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: 0.9s;
+    transform: perspective(700px) translate(0, -100%) rotateX(45deg) rotateY(90deg);
+}
+
+.windowCloset {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.windowCloset img {
+    width: 30px;
+    height: 30px;
+}
+
+.windowCloset img:hover {
+    opacity: 0.8;
+}
+
+.windowContent input {
+    display: block;
+    margin: 0 auto 20px;
+    width: 90%;
+    font-size: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #296365;
+}
+
+.windowContent input:hover {
+    background-color: gold;
+}
+
+.windowContent input[type='button'] {
+    width: 50%;
+    background-color: #299592;
+    color: white;
+    font-weight: bold;
+    border: 1px;
+}
+
+.windowContent input[type='button']:hover {
+    background-color: gold;
+    color: #0f5f5c;
+}
+
+.windowContent ::placeholder {
+    color: #296365;
+}
+
+.windowContent {
+    display: block;
+}
+
+.windowContent h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.windowContent p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}

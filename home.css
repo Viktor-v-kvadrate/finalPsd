@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: 'ProximaNovaCond-Bold';
-    src: url('../fonts/ProximaNovaCond-Bold.ttf');
+    src: url('fonts/ProximaNovaCond-Bold.ttf');
 }
 
 * {
@@ -78,7 +78,7 @@ h2 {
 
 /*******************************************************************************/
 #header {
-    background-image: url("../img/headBackground.png");
+    background-image: url("img/headBackground.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -138,7 +138,7 @@ nav div:hover a {
 .lineHr {
     height: 1px;
     max-width: 1200px;
-    background-image: url("../img/lineHr.png");
+    background-image: url("img/lineHr.png");
 }
 
 .headerText {
@@ -181,7 +181,7 @@ nav div:hover a {
 }
 
 .greenLine {
-    background-image: url("../img/greenLine.png");
+    background-image: url("img/greenLine.png");
     height: 1px;
     width: 65px;
     margin: 21px auto;
@@ -231,14 +231,14 @@ nav div:hover a {
 }
 
 .cross1 {
-    background-image: url("../img/grayLineV.png");
+    background-image: url("img/grayLineV.png");
     height: 89px;
     width: 2px;
     margin: auto;
 }
 
 .cross2 {
-    background-image: url("../img/grayLineH.png");
+    background-image: url("img/grayLineH.png");
     height: 2px;
     width: 90px;
     margin: auto;
@@ -286,7 +286,7 @@ nav div:hover a {
 }
 
 #looking {
-    background-image: url("../img/handVSfone.png");
+    background-image: url("img/handVSfone.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -324,7 +324,7 @@ nav div:hover a {
 .check {
     width: 26px;
     height: 26px;
-    background-image: url("../img/check.png");
+    background-image: url("img/check.png");
     margin-right: 10px;
 }
 
@@ -372,7 +372,7 @@ nav div:hover a {
 }
 
 #mapWorld {
-    background-image: url("../img/mapWorld.png");
+    background-image: url("img/mapWorld.png");
     background-repeat: no-repeat;
     background-position: right center;
     background-color: #eef1ec;
@@ -527,7 +527,7 @@ h3 {
 }
 
 #download {
-    background-image: url("../img/forDownload.png");
+    background-image: url("img/forDownload.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -614,7 +614,7 @@ h3 {
     margin-top: 10px;
     border: none;
     border-radius: 2px;
-    background-image: url("../img/plane.png");
+    background-image: url("img/plane.png");
     background-repeat: no-repeat;
     background-position: right 10px center;
     outline: none;
